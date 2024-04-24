@@ -10,16 +10,10 @@ const urist = {
 
 const currentTopic = "currentTopic";
 const newTopic = "newTopic";
-const prompTxt = "prompTxt";
-
-let messageMode = currentTopic;
-let history;
 
 module.exports = {
   analitic,
   urist,
   currentTopic,
   newTopic,
-  messageMode,
-  history,
 };

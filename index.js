@@ -10,10 +10,11 @@ const {
   urist,
   currentTopic,
   newTopic,
-  messageMode,
-  history,
   prompTxt,
 } = require("./constants");
+
+let messageMode = currentTopic;
+let history;
 
 const bot = new Telegraf(process.env.botToken);
 
